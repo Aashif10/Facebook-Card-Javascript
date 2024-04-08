@@ -1,0 +1,75 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    background-color: rgb(230, 219, 219) ;
+    border: 2px solid black;
+    width: 330px;
+    height: 420px;
+    position: absolute;
+    top: 15%;
+    left: 35%;
+}
+#container img{
+    position:absolute;
+    top: 10%;
+    left: 27%;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+#heading{
+    position: absolute;
+    top: 70%;
+    left: 33%;
+    font-size:30px;
+    font-weight: bold;
+    
+
+}
+#remove{
+    position:absolute;
+    top: 85%;
+    left: 14%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    border-radius: 5px;
+
+}
+#add{
+    position:absolute;
+    top: 85%;
+    left: 54%;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: blue;
+    color: white;
+    padding: 5px;
+    border: 2px solid white;
+    transition:all 1x ease-in-out;
+    border-radius: 5px;
+
+}
+#remove:hove{
+    background-color: green;
+    color: white;
+    transition:all 1s ease-in-out;
+
+}
+#add:hove{
+    background-color: green;
+    color: white;
+    transition:all 1s ease-in-out;
+}
+#h4{
+    position: absolute;
+    top:50%;
+    left: 9%;
+}
